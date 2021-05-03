@@ -1,0 +1,34 @@
+.nav_container {
+  top: 0;
+  position: absolute;
+  //   position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 1;
+
+  .nav_effect {
+    background-color: black;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    z-index: 1;
+  }
+
+  .logo {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+    margin: 20px;
+    // z-index: 1;
+  }
+
+  .avatar {
+    top: 0;
+    max-height: 50px;
+    width: auto;
+    object-fit: contain;
+    margin: 20px;
+    // z-index: 1;
+  }
+}
