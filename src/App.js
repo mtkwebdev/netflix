@@ -4,6 +4,7 @@ import requests from './modules/tools/requests';
 import Row from './components/c_Row/Row'
 import Banner from './components/c_Banner/Banner'
 import Nav from './components/c_Nav/Nav'
+require('dotenv').config();
 
 function App() {
   return (

@@ -1,6 +1,9 @@
-// const imageURL = 'https://image.tmdb.org/t/p/w500/';
-// const movieURL = `https://api.themoviedb.org/3/search/movie?`;
+const imageURL = 'https://image.tmdb.org/t/p/w500/';
+const movieURL = `https://api.themoviedb.org/3/search/movie?`;
 const apiKey = 'ec45fe1deaefbdd124c33f2f9a472d9e';
+// const apiKey = process.env.APIKEY
+// console.log(apiKey)
+
 
 const requests = {
 'fetchTrendingToday':`/trending/all/day?api_key=${apiKey}`,
